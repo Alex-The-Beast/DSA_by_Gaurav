@@ -1,6 +1,30 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-/out
-/target
-/.idea
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Build outputs
+/out/
+/target/
+/build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE local settings
+*.iws
+*.ipr
+*.bak
+
+# IntelliJ specific (extra)
+shelf/
+workspace.xml
+
+# Optional: compiled classes
+*.class
+
+# Optional: Maven wrapper
+.mvn/

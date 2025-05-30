@@ -5,11 +5,9 @@ public class Power {
     static int power(int a,int b){
         if (b < 0) throw new IllegalArgumentException("Negative exponents not supported.");
         if(b==0) return 1;
-        if(b%2==0) {
-            int half=power(a,b/2);
-            return half*half;
-        }
-        else return a*power(a,b-1);
+        int half=power(a,b/2);
+        if(b%2==0)  return half*half;
+        return a*half*half;
     }
     public static void main(String[] args) {
         Scanner sc= new Scanner (System.in);

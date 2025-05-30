@@ -16,3 +16,5 @@ public class SumOfDigit {
 
     }
 }
+
+//time and space complexity os 0(d)

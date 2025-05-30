@@ -15,3 +15,7 @@ public class Fibonacci {
         System.out.println(result);
     }
 }
+
+// time complexity of fibonacci series is 2^n  recursive call tree ---->> 2^0 , 2^1 , 2^2 .....2^n   after solving gp we get this
+
+// space complexity due to stack frame  0(n)

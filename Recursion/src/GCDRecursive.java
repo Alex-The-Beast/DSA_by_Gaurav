@@ -1,3 +1,5 @@
+// euclid's algo ---->>> gcd(x,y)=gcd(y,x%y)
+
 import java.util.Scanner;
 
 public class GCDRecursive {
